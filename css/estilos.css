@@ -1,0 +1,88 @@
+* {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    height: 15vh;
+    width: 100%;
+}
+header img {
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none; /*Para quitar subrayado*/
+    color: #818C9C; 
+    padding:10px;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+}
+nav {
+    display: flex;
+    justify-content: end; /*Alineación horizontal*/
+    align-items: center; /*Alineación Vertical */
+    height: 10vh;
+    
+}
+li {
+ list-style-type: none;
+ margin-right: 20px;
+}
+
+main {
+    height: 70vh;
+    width: 100%;
+    background: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+}
+main p {
+    width: 60%;
+    color: white;
+    text-align: right;
+    font-size: 2.5em;
+}
+.aprende {
+    font-weight: bold;
+}
+.escuela {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+footer {
+    height: 15vh;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    color: #D4A95E;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.edad {
+    color: grey;
+    justify-content: center;
+    text-align: center;
+}
+
+.horario {
+    font-weight: bold;
+    color: grey;
+    justify-content: center;
+    text-align: center;
+}
